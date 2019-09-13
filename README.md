@@ -5,6 +5,6 @@ What to do?
 
 Fork this repo
 
-Create reports, classes etc. using abap-markdown
-Create pull request
-We'll merge everything what's created during the event
+- Create reports, classes etc. using abap-markdown
+- Create pull request
+- We'll merge everything what's created during the event
