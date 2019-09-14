@@ -1,28 +1,24 @@
-class ZCL_BUNKAI_KS definition
-  public
-  final
-  create public .
+CLASS zcl_bunkai_ks DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
+  PUBLIC SECTION.
 
-  methods TEST_ME
-    returning
-      value(R_HTML) type STRING .
-protected section.
-private section.
+    METHODS test_me
+      RETURNING
+        VALUE(r_html) TYPE string .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZCL_BUNKAI_KS IMPLEMENTATION.
-
+CLASS zcl_bunkai_ks IMPLEMENTATION.
 
   METHOD test_me.
-
     DATA(o_markdown) = NEW zmarkdown( ).
-
     r_html = o_markdown->text( '_ABAP Markdown_!' ).
-
-
   ENDMETHOD.
+
 ENDCLASS.
