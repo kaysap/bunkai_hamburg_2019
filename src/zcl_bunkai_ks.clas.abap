@@ -23,5 +23,6 @@ CLASS ZCL_BUNKAI_KS IMPLEMENTATION.
 
     r_html = o_markdown->text( '_ABAP Markdown_!' ).
 
+
   ENDMETHOD.
 ENDCLASS.
