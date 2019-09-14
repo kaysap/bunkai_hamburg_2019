@@ -6,12 +6,12 @@
 REPORT Z_SECOND_VERSION.
 
 DATA(markdown) = NEW zmarkdown( ).
-CALL METHOD markdown->SET_MARKUP_ESCAPED
+markdown->SET_MARKUP_ESCAPED(
   EXPORTING
     MARKUP_ESCAPED = abap_false
   RECEIVING
     THIS           = markdown
-    .
+    ).
 
 DATA(html) = markdown->text( 'Hello \n test **abapGit Bunkai**!' ).
 cl_demo_output=>display_html( html ).
