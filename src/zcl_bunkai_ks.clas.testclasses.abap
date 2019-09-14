@@ -1,5 +1,5 @@
 *"* use this source file for your ABAP unit test classes
-CLASS ltc_test DEFINITION FOR TESTING
+CLASS ltc_bunkai_ks DEFINITION FOR TESTING
 DURATION SHORT
 RISK LEVEL HARMLESS.
 
@@ -10,7 +10,7 @@ RISK LEVEL HARMLESS.
 ENDCLASS.
 
 
-CLASS ltc_test IMPLEMENTATION.
+CLASS ltc_bunkai_ks IMPLEMENTATION.
   METHOD ok.
 
     mo_cut = NEW #(  ).
