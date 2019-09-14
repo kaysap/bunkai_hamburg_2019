@@ -12,10 +12,10 @@ ENDCLASS.
 
 CLASS ltc_test IMPLEMENTATION.
   METHOD ok.
-     mo_cut = NEW #(  ). 
-     DATA(l_html) = mo_cut->test_me(  ). 
-  
-     cl_abap_unit_assert=>assert_equals( act = l_html exp = |<p><em>ABAP Markdown</em>!</p>| ). 
 
+    mo_cut = NEW #(  ).
+    DATA(l_html) = mo_cut->test_me(  ).
+
+    cl_abap_unit_assert=>assert_equals( act = l_html exp = |<p><em>ABAP Markdown</em>!</p>| ).
   ENDMETHOD.
 ENDCLASS.
