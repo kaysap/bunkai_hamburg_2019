@@ -21,5 +21,6 @@ CLASS ZCL_TEST_MARKDOWN IMPLEMENTATION.
 
 
   method METH2.
+    Write 'METH2'.
   endmethod.
 ENDCLASS.
