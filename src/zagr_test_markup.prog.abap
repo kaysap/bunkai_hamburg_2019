@@ -8,3 +8,15 @@ DATA(markdown) = NEW zmarkdown( ).
 
 DATA(html) = markdown->text( 'Hello Hamburg!' ).
 cl_demo_output=>display_html( html ).
+
+
+
+* Bugfix
+* Bugfix
+* Bugfix
+* Bugfix
+* Bugfix
+* Bugfix
+* Bugfix
+* Bugfix
+* Bugfix
