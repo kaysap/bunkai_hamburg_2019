@@ -21,7 +21,7 @@ CLASS ZCL_BUNKAI_KS IMPLEMENTATION.
 
     DATA(o_markdown) = NEW zmarkdown( ).
 
-    r_html = o_markdown->text( 'Hello, this is _ABAP Markdown_!' ).
+    r_html = o_markdown->text( '_ABAP Markdown_!' ).
 
 
   ENDMETHOD.
