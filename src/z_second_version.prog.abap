@@ -13,5 +13,5 @@ CALL METHOD markdown->SET_MARKUP_ESCAPED
     THIS           = markdown
     .
 
-DATA(html) = markdown->text( 'Hello \n **abapGit Bunkai**!' ).
+DATA(html) = markdown->text( 'Hello     \n      **abapGit Bunkai**!' ).
 cl_demo_output=>display_html( html ).
