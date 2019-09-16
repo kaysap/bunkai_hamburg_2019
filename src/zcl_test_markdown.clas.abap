@@ -23,10 +23,7 @@ CLASS ZCL_TEST_MARKDOWN IMPLEMENTATION.
   method METH2.
     Write 'METH2'.
 
-
     Write 'Pull Request'.
-
-=======
 
   endmethod.
 ENDCLASS.
